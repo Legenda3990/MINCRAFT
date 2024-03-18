@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    
+}
+
+.header{
+    border: 3px solid rgb(0, 4, 255);
+    width: 1850px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position: fixed;
+
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ul li{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+}
+.content-one{
+    width: auto;
+    height: 600px;
+    background-color: aqua;
+    border: 2px solid red;
+}
+
+.content-two{
+    width: auto;
+    height: 600px;
+    background-color: rgb(179, 255, 0);
+    border: 2px solid red;
+}
+
+.content-three{
+    width: auto;
+    height: 600px;
+    background-color: rgb(255, 230, 0);
+    border: 2px solid red;
+}
+
+.content-four{
+    width: auto;
+    height: 600px;
+    background-color: rgb(0, 255, 106);
+    border: 2px solid red;
+}
+.content-faif{
+    width: auto;
+    height: 600px;
+    background-color: rgb(123, 255, 0);
+    border: 2px solid red;
+}
